@@ -3,7 +3,7 @@
 % data is column sampled.
 function [model,hidden_outs] = auto_encoder(x, hidden_units, p)
 
-path('../preprocessing');
+path(path, '../preprocessing');
 
 % Set the inputs/outputs
 y = x;

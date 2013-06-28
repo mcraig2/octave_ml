@@ -1,6 +1,7 @@
 % Tests the auto encoder
 function test_auto_encoder
 
+path(path, '../');
 path(path, '../preprocessing');
 
 rand('seed', 1);

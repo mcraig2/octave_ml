@@ -6,9 +6,9 @@ rand('seed', 1);
 path(path, '../');
 
 % Set up three clusters of data
-x1 = normrnd(0, 0.3, [2 200]);
-x2 = normrnd(1, 0.3, [2 200]);
-x3 = [normrnd(-0.75, 0.4, [1 200]); normrnd(1, 0.2, [1 200])];
+x1 = normrnd(0, 3, [2 200]);
+x2 = normrnd(10, 3, [2 200]);
+x3 = [normrnd(-7.5, 4, [1 200]); normrnd(10, 2, [1 200])];
 
 % Run k-means
 x_all = [x1 x2 x3];
